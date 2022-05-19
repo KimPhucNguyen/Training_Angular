@@ -4,12 +4,14 @@ import { AboutComponent } from './about/about.component';
 import { ForComponent } from './for/for.component';
 import { HomeComponent } from './home/home.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 
 const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'home', component: HomeComponent },
   { path: 'templateForm', component:  TemplateDrivenFormComponent},
+  { path: 'reactiveForm', component:  ReactiveFormComponent},
   { path: '', component: HomeComponent },
   { path: 'for', component: ForComponent },
   { path: '**', component: PageNotFoundComponent },

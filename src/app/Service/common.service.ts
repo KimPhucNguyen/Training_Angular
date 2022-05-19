@@ -14,6 +14,6 @@ export class CommonService {
   }
 
   public SubmitData(data: any): void{
-
+    console.log('Submit',data);
   }
 }
