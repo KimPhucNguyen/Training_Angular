@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ForComponent } from './for/for.component';
 import { LimitedPipe } from './limited.pipe';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { LimitedPipe } from './limited.pipe';
     HomeComponent,
     AboutComponent,
     ForComponent,
-    LimitedPipe
+    LimitedPipe,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
