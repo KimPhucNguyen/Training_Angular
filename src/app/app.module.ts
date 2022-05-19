@@ -10,6 +10,7 @@ import { ForComponent } from './for/for.component';
 import { LimitedPipe } from './limited.pipe';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HighlightDirective } from './Directives/highlight.directive';
+import { TemplateDrivenFormComponent } from './template-driven-form/template-driven-form.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HighlightDirective } from './Directives/highlight.directive';
     ForComponent,
     LimitedPipe,
     PageNotFoundComponent,
-    HighlightDirective
+    HighlightDirective,
+    TemplateDrivenFormComponent
   ],
   imports: [
     BrowserModule,

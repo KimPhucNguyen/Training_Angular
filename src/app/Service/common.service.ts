@@ -12,4 +12,8 @@ export class CommonService {
   public Exponential(n: number): number {
     return n * n;
   }
+
+  public SubmitData(data: any): void{
+
+  }
 }
