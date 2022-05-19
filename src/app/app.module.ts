@@ -9,6 +9,7 @@ import { AboutComponent } from './about/about.component';
 import { ForComponent } from './for/for.component';
 import { LimitedPipe } from './limited.pipe';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HighlightDirective } from './Directives/highlight.directive';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AboutComponent,
     ForComponent,
     LimitedPipe,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
