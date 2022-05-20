@@ -1,0 +1,5 @@
+<h1>This is Father Component!</h1>
+<h4>{{fatherMessage}}</h4>
+<button (click)="GiveMoney()">Give money</button>
+<app-son #Teo name="Teo" (SonCalled)="SonSaid($event)"></app-son>
+<app-son #Ti name="Ti" (SonCalled)="SonSaid($event)"></app-son>
